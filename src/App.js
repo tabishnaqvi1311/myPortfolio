@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Hero/>
       <Projects />
-      <div className='flex lg:flex-row flex-col-reverse justify-between items-center bg-background'>
+      <div className='flex lg:flex-row flex-col justify-between items-center bg-background'>
         <Contact />
         <About />
       </div>
