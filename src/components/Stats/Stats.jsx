@@ -7,7 +7,7 @@ import './Stats.css'
 const Stats = () => {
   return (
     <>
-    <div className='text-white my-[9rem] flex flex-col justify-center items-center rounded-3xl bg-gradient-to-br from-[#3c3f4d] to-[#1e293b] p-5 mx-10 shadow-[1px_1px_50px_-20px_rgba(0,0,0,0.3)] shadow-gray-300'>
+    <div id='stats' className='text-white my-[9rem] flex flex-col justify-center items-center rounded-3xl bg-gradient-to-br from-[#3c3f4d] to-[#1e293b] p-5 mx-10 shadow-[1px_1px_50px_-20px_rgba(0,0,0,0.3)] shadow-gray-300'>
         <p className='text-[30px] text-center font-semibold'>PLAYER STATS 🚀</p>
         <div className='flex flex-col lg:flex-row'>
             {myStats.map((stat, index)=>(

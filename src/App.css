@@ -8,6 +8,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   font-family: 'Baloo Bhai 2', cursive;
+  /* animation: fadeIN 1s linear; */
 }
 
 html {
