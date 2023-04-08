@@ -35,21 +35,25 @@ export const mySkills = [
         title: 'Data Structures and Algorithms',
     },
     {
-        id: 'cp',
-        title: 'Competitive Programmer',
+        id: 'bug',
+        title: 'Bug Hunter',
+    },
+    {
+        id: 'js',
+        title: 'JavaScript Developer',
     },
 ]
 
 export const myStats = [
     {
         id: 'css',
-        title: 'CSS',
+        title: 'CSS/Tailwind',
         amount: 75
     },
     {
         id: 'js',
         title: 'JavaScript',
-        amount: 75
+        amount: 65
     },
     {
         id: 'node',
@@ -59,12 +63,12 @@ export const myStats = [
     {
         id: 'react',
         title: 'React.js',
-        amount: 65
+        amount: 60
     },
     {
         id: 'express',
         title: 'Express.js',
-        amount: 75
+        amount: 50
     },
     {
         id: 'cpp',
@@ -74,7 +78,12 @@ export const myStats = [
     {
         id: 'mongo',
         title: 'MongoDB',
-        amount: 25
+        amount: 35
+    },
+    {
+        id:'git',
+        title:'Git/GitHub',
+        amount: 75
     }
 ]
 
