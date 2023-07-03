@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
-  mode: "jit",
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        background: 'black',
-        accents: '#008080',
-        other: '#015c5c'
+        background: '#021c27',
+        text: '#d3f1fd',
+        primary: '#882b06',
+        secondary: "yellow",
+        accent: '#ea4a0b'
       },
     },
     screens: {
@@ -20,4 +24,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
