@@ -1,19 +1,12 @@
-import Contact from "./components/Contact"
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
+import BelowHeader from "./components/BelowHeader"
+import Header from "./components/Header"
 
 function App() {
   return (
     <>
-    {/* <Cube /> */}
-      <div className="bg-background overflow-x-hidden ">
-      <Navbar />
-        <Hero />
-        <Skills />
-        <Projects />
-        <Contact />
+      <div className="bg-background">
+        <Header/>
+        <BelowHeader/>
       </div>
     </>
   )
