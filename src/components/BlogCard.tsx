@@ -5,7 +5,7 @@ type CardProps = {
     readTime: number;
 };
 
-const BlogCard = ({ slug, coverImage, title, readTime }: CardProps) => {
+const BlogCard = ({ coverImage, title }: CardProps) => {
     return (
         <div className="relative bg- rounded-lg shadow-md p-4 m-4 max-w-sm">
             <img src={coverImage} alt={title} className="w-full h-auto rounded-lg" />
