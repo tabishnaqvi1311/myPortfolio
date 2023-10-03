@@ -13,6 +13,15 @@
 
 <body>
   <div id="root"></div>
+  <script>
+    const sendNotif = async () => {
+      await fetch('https://ntfy.sh/portf', {
+        method: 'POST', 
+        body: 'Someone visited your site'
+      })
+    }
+    sendNotif()
+  </script>
   <script type="module" src="/src/main.tsx"></script>
 </body>
 
