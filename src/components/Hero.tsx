@@ -14,7 +14,7 @@ export const Hero = () => {
                 <div className="flex flex-col gap-10 mb-10">
                     <h1 className="lg:text-7xl text-5xl font-black">Hey, My name is <br /><span className="text-lime-500">Tabish</span> Naqvi</h1>
                     <p className="text-lg">A 19-year-old self-made full stack developer <br />with passion for problem-solving using code</p>
-                    <a href="https://drive.google.com/file/d/1UW7xliufjd3uT6kqrXDeOZmMdNn0TF5K/view?usp=drive_link">
+                    <a href="https://drive.google.com/file/d/1spRWn9wwi6lNSlCkvHej36b_WvJbgOhH/view?usp=sharing">
                         <Button content="R E S U M E" />
                     </a>
                 </div>

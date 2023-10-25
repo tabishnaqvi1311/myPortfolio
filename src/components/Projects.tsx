@@ -29,10 +29,10 @@ export const Projects = () => {
         },
         {
             id: 3,
-            name: "Songs API",
-            desc: "An API to perform CRUD on songs",
-            techUsed: ["grafbase", "graphQL", "javascript"],
-            linkToProject: "https://github.com/tabishnaqvi1311/songs-api-graphql"
+            name: "Twitter Bot",
+            desc: "Bot that posts memes on twitter built using Tweepy library",
+            techUsed: ["twitter", "Twiiter API", "javascript"],
+            linkToProject: "https://github.com/tabishnaqvi1311/twitter-bot"
         },
 
     ]
