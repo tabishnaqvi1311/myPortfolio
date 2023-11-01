@@ -9,20 +9,23 @@ export const Skills = () => {
       <div className="absolute bottom-1/4 left-1/4 w-48 h-48 bg-white bg-opacity-10 rounded-full"></div>
       <motion.h1 className="text-6xl font-black text-center" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>Know My <span className="border-b-4 border-[#84cc14]">Skillset</span></motion.h1>
       <motion.div className="flex justify-center items-center" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.7 }}>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-20 my-20">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-20 my-20">
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.icons8.com/color/48/000000/javascript.png" /></a>
           <a href="https://www.w3.org/html/" target="_blank"><img src="https://img.icons8.com/color/48/000000/html-5.png" /></a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/docker.png" /> </a>
           <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://img.icons8.com/color/48/000000/css3.png" /></a>
           <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/python.png" /> </a>
           <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-programming.png" /> </a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" className="" /> </a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/linux.png" className="" /> </a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" /> </a>
           <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" /> </a>
           <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/mongodb.png" /> </a>
-          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" /> </a>
           <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/officel/48/000000/react.png" /> </a>
-          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" /> </a>
-          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" /> </a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/mysql.png" /> </a>
           <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png" /> </a>
           <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/typescript.png" /> </a>
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/graphql.png" /> </a>
           <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nextjs.png" className="bg-white" /> </a>
           <a href="https://git-scm.com/" target="_blank"> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" className="bg-white" /> </a>
         </div>

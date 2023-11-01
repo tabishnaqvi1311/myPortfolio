@@ -2,6 +2,7 @@ import "../styles/Hero.css"
 import { Button } from "./Button"
 import { motion } from "framer-motion"
 import laptop from "../assets/laptop.png"
+import { BiLinkExternal } from 'react-icons/bi';
 
 export const Hero = () => {
     return (
@@ -11,9 +12,10 @@ export const Hero = () => {
             <div className="absolute top-1/3 right-1/3 w-60 h-60 bg-gray-200 bg-opacity-5 rounded-full"></div>
 
             <div className="flex lg:flex-row flex-col items-center justify-evenly lg:py-40 p-10">
-                <div className="flex flex-col gap-10 mb-10">
-                    <h1 className="lg:text-7xl text-5xl font-black">Hey, My name is <br /><span className="text-lime-500">Tabish</span> Naqvi</h1>
-                    <p className="text-lg">A 19-year-old self-made full stack developer <br />with passion for problem-solving using code</p>
+                <div className="flex flex-col gap-8 mb-10">
+                    <h1 className="lg:text-7xl text-5xl font-black">Hey, My name is <br /><span className="text-lime-500">Tabish</span> Naqvi.</h1>
+                    <p className="text-lg">A 19-year-old self-made full stack developer <br />with passion for problem-solving using code.</p>
+                    <a href="https://gunhawke.hashnode.dev/" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200">Read the blog <BiLinkExternal/></a>
                     <a href="https://drive.google.com/file/d/1spRWn9wwi6lNSlCkvHej36b_WvJbgOhH/view?usp=sharing">
                         <Button content="R E S U M E" />
                     </a>
