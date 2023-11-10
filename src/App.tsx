@@ -8,6 +8,7 @@ import { Skills } from "./components/Skills"
 import { Timeline } from "./components/Timeline"
 import { Loading } from "./components/Loading"
 import Footer from "./components/Footer"
+import CodingActivity from "./components/CodingActivity"
 
 const App = () => {
 
@@ -26,8 +27,9 @@ const App = () => {
           <Navbar />
           <Hero />
           <Timeline />
-          <Skills />
           <Projects />
+          <CodingActivity/>
+          <Skills />
           {/* <Blogs/> */}
           <ContactMe />
           <Footer/>
