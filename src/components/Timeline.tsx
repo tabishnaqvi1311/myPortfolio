@@ -36,7 +36,7 @@ export const Timeline = () => {
                                     icon={<AiOutlineLaptop size={25} color="black"/>}
                                 />
                                 <TimelineCard
-                                    content={"As a sophomore, Tabish interned at MRIIRS where he learned data vizualization using tools such as Tableau, he further expanded his current knowledge of tech and picked up a keen interest in DevOps."}
+                                    content={"As a sophomore, Tabish refined his web development skills through freelancing, enhancing his proficiency and exploring DevOps tech like Docker, Kubernetes, and cloud services"}
                                     isEven={false}
                                     icon={<HiCode size={25} color="black"/>}
                                 />

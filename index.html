@@ -5,6 +5,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta name="description"
+    content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
+
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="./public/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,12 +19,26 @@
   <script>
     const sendNotif = async () => {
       await fetch('https://ntfy.sh/portf', {
-        method: 'POST', 
+        method: 'POST',
         body: 'Someone visited your site'
       })
     }
     sendNotif()
   </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Tabish Naqvi",
+      "jobTitle": "Web Developer",
+      "url": "https://tabishnaqvi.vercel.app",
+      "sameAs": [
+        "https://www.linkedin.com/in/tabish-naqvi-a4a723103/",
+        "https://github.com/tabishnaqvi1311"
+      ]
+    }
+  </script>
+
   <script type="module" src="/src/main.tsx"></script>
 </body>
 
