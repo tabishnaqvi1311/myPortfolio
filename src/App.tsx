@@ -23,17 +23,19 @@ const App = () => {
   return (
     <>
       {isLoading ? <Loading /> : (
-        <div className="main">
-          <Navbar />
-          <Hero />
-          <Timeline />
-          <Projects />
-          <CodingActivity/>
-          <Skills />
-          {/* <Blogs/> */}
-          <ContactMe />
-          <Footer/>
-        </div>
+        <>
+          <div className="main">
+            <Navbar />
+            <Hero />
+            <Timeline />
+            <Projects />
+            <CodingActivity />
+            <Skills />
+            {/* <Blogs/> */}
+            <ContactMe />
+            <Footer />
+          </div>
+        </>
       )
       }
     </>

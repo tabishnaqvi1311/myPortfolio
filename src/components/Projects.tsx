@@ -44,7 +44,7 @@ export const Projects = () => {
         {
             id: 5,
             name: "3-D Platformer",
-            desc: "A 3D platformer built using Unity and C#",
+            desc: "A 3D platformer game built using Unity and C#",
             techUsed: ["unity", "c#", "blender"],
             linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
         }

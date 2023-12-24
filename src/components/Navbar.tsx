@@ -60,7 +60,7 @@ export const Navbar = () => {
                             {
                                 navLinks.map((nav) => (
                                     <li key={nav.id} className={``}>
-                                        <a href={`#${nav.id}`} className="uppercase tracking-widest">
+                                        <a href={`#${nav.title}`} className="uppercase tracking-widest">
                                             {nav.title}
                                         </a>
                                     </li>
