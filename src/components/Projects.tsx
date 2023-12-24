@@ -40,8 +40,14 @@ export const Projects = () => {
             desc: "A recipe webite with fully functional CRUD operations and authentication using jwt",
             techUsed: ["react", "tailwind", "mongodb"],
             linkToProject: "https://github.com/tabishnaqvi1311/CulinaryCrave"
+        },
+        {
+            id: 5,
+            name: "3-D Platformer",
+            desc: "A 3D platformer built using Unity and C#",
+            techUsed: ["unity", "c#", "blender"],
+            linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
         }
-
     ]
 
     return (
