@@ -4,6 +4,9 @@ import { motion } from "framer-motion"
 import laptop from "../assets/laptop.png"
 
 export const Hero = () => {
+
+    const resumeLink = "https://drive.google.com/file/d/1amLmPEQd79KDhauzyd7i32ZcNrt5itaF/view?usp=drive_link";
+
     return (
         <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.5 }}>
             <div className="absolute -top-12 left-0 w-40 h-40 bg-lime-500 bg-opacity-10 rounded-full"></div>
@@ -17,11 +20,11 @@ export const Hero = () => {
                     <div className="flex gap-5 items-center text-sm lg:text-base ">
                         <a href="https://gunhawke.hashnode.dev/" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200" target="_blank">Read the blog</a>
                         <span>|</span>
-                        <a href="https://moyaai.tech" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200" target="_blank">
+                        <a href="https://moyaai.tech" className="flex items-center gap-2 text-lime-500 transition-all duration-200" target="_blank">
                             Check Out Moyaai
                         </a>
                     </div>
-                    <a href="https://drive.google.com/file/d/1spRWn9wwi6lNSlCkvHej36b_WvJbgOhH/view?usp=sharing">
+                    <a href={resumeLink} target="_blank">
                         <Button content="R E S U M E" />
                     </a>
                 </div>

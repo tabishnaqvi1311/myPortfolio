@@ -38,7 +38,12 @@ export const Navbar = () => {
     return (
         <div className=''>
             {/* for large devices */}
-            <nav className="flex justify-end ">
+            <nav className="flex justify-between items-center">
+                <div className="px-7 text-3xl">
+                    <span className="text-lime-500">{"<"}</span>
+                    {'t/'}
+                    <span className="text-lime-500">{">"}</span>
+                </div>
                 <motion.ul className="sm:flex hidden gap-10" initial={{ opacity: '0' }} animate={{opacity: 100}} transition={{ delay: 0.5}}>
                     {
                         navLinks.map((nav) => (
