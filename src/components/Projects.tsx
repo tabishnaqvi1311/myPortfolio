@@ -14,11 +14,10 @@ export const Projects = () => {
     const cardDetails: CardDetails[] = [
         {
             id: 1,
-            name: "Enliven",
-            desc: "A mental health platform for underpriviliged youth built in Next.js",
-            techUsed: ["nextjs", "openai", "shadcn"],
-            linkToProject: "https://github.com/tabishnaqvi1311/enliven-sih"
-
+            name: "Moyaai",
+            desc: "A job matching platform for Youtubers and job seekers that puts community building first",
+            techUsed: ["youtubeAPI", "mongodb", "react"],
+            linkToProject: "https://moyaai.tech"
         },
         {
             id: 2,
@@ -37,8 +36,8 @@ export const Projects = () => {
         {
             id: 4,
             name: "CulinaryCrave",
-            desc: "A recipe webite with fully functional CRUD operations and authentication using jwt",
-            techUsed: ["react", "tailwind", "mongodb"],
+            desc: "A recipe webite built with the Spoonacular API",
+            techUsed: ["react", "tailwind", "spoonacular"],
             linkToProject: "https://github.com/tabishnaqvi1311/CulinaryCrave"
         },
         {
@@ -47,7 +46,15 @@ export const Projects = () => {
             desc: "A 3D platformer game built using Unity and C#",
             techUsed: ["unity", "c#", "blender"],
             linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
-        }
+        },
+        {
+            id: 6,
+            name: "Enliven",
+            desc: "A mental health ecosystem (website+game) for children built in Next.js",
+            techUsed: ["c#", "unity", "nextjs"],
+            linkToProject: "https://github.com/tabishnaqvi1311/enliven-sih"
+
+        },
     ]
 
     return (
