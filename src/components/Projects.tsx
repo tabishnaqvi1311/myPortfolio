@@ -35,10 +35,10 @@ export const Projects = () => {
     },
     {
       id: 4,
-      name: "CulinaryCrave",
-      desc: "A recipe webite built with the Spoonacular API",
-      techUsed: ["react", "tailwind", "spoonacular"],
-      linkToProject: "https://github.com/tabishnaqvi1311/CulinaryCrave"
+      name: "EZ:Ticket",
+      desc: "dApp for college event ticket distribution through NFTs",
+      techUsed: ["solidity", "hardhat", "react", "metamask"],
+      linkToProject: "https://github.com/tabishnaqvi1311/ezticket-website"
     },
     {
       id: 5,
