@@ -41,19 +41,19 @@ export const Projects = () => {
       linkToProject: "https://github.com/tabishnaqvi1311/ezticket-website"
     },
     {
+      id: 6,
+      name: "Splyrics",
+      desc: "Chrome extension that brings back paywalled spotify lyrics",
+      techUsed: ["javascript", "chromeAPI"],
+      linkToProject: "https://github.com/tabishnaqvi1311/splyrics"
+
+    },
+    {
       id: 5,
       name: "3-D Platformer",
       desc: "A 3D platformer game built using Unity and C#",
       techUsed: ["unity", "c#", "blender"],
       linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
-    },
-    {
-      id: 6,
-      name: "Enliven",
-      desc: "A mental health tracker (website+game) for children",
-      techUsed: ["c#", "unity", "nextjs"],
-      linkToProject: "https://github.com/tabishnaqvi1311/enliven-sih"
-
     },
   ]
 
