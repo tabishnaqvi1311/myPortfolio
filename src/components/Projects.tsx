@@ -37,7 +37,7 @@ export const Projects = () => {
       id: 4,
       name: "EZ:Ticket",
       desc: "dApp for college event ticket distribution through NFTs",
-      techUsed: ["solidity", "hardhat", "react", "metamask"],
+      techUsed: ["solidity", "etherjs", "metamask"],
       linkToProject: "https://github.com/tabishnaqvi1311/ezticket-website"
     },
     {
