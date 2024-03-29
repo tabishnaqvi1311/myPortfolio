@@ -19,10 +19,9 @@ export const Hero = () => {
           <p className="text-lg">A 20-year-old self-made full stack developer <br />with passion for problem-solving using code.</p>
           <div className="flex gap-5 items-center text-sm lg:text-base ">
             <a href="https://gunhawke.hashnode.dev/" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200" target="_blank">Read the blog</a>
-            <span>|</span>
-            <a href="https://moyaai.tech" className="flex items-center gap-2 text-lime-500 transition-all duration-200" target="_blank">
+            {/*<a href="https://moyaai.tech" className="flex items-center gap-2 text-lime-500 transition-all duration-200" target="_blank">
               Check Out Moyaai
-            </a>
+            </a>*/}
           </div>
           <a href={resumeLink} target="_blank">
             <Button content="R E S U M E" />
