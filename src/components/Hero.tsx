@@ -5,7 +5,7 @@ import laptop from "../assets/laptop.png"
 
 export const Hero = () => {
 
-  const resumeLink = "https://drive.google.com/file/d/1ja7hKhWR2P0wODYM4XmnIEvAVnw3R9v7/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1V41Y-tvIE8l2UYeRDZkv-b7aEBk1WeDG/view?usp=sharing";
 
   return (
     <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.5 }}>
