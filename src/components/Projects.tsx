@@ -13,13 +13,6 @@ export const Projects = () => {
 
   const cardDetails: CardDetails[] = [
     {
-      id: 1,
-      name: "Moyaai",
-      desc: "A job matching platform for Youtubers and job seekers that puts community building first",
-      techUsed: ["youtubeAPI", "mongodb", "react"],
-      linkToProject: "https://moyaai.tech"
-    },
-    {
       id: 2,
       name: "Attendance Notifier",
       desc: "Discord bot to notify college attendance on lazy mornings!",
@@ -54,6 +47,13 @@ export const Projects = () => {
       desc: "A 3D platformer game built using Unity and C#",
       techUsed: ["unity", "c#", "blender"],
       linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
+    },
+    {
+      id: 1,
+      name: "Piston",
+      desc: "ClI tool to compress files using Huffman Encoding",
+      techUsed: ["clang++", "cpp"],
+      linkToProject: "https://github.com/tabishnaqvi1311/piston"
     },
   ]
 
