@@ -2,6 +2,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi"
 import { CgClose } from "react-icons/cg"
 import { motion } from "framer-motion"
+import NavLink from "./NavLink";
 
 type NavLink = {
     id: number,
@@ -38,7 +39,7 @@ export const Navbar = () => {
     return (
         <div className=''>
             {/* for large devices */}
-            <nav className="flex justify-between items-center">
+            <nav className="flex justify-between items-center p-5">
                 <div className="px-7 text-3xl">
                     <span className="text-lime-500">{"<"}</span>
                     {'t/'}
@@ -47,10 +48,8 @@ export const Navbar = () => {
                 <motion.ul className="sm:flex hidden gap-10" initial={{ opacity: '0' }} animate={{opacity: 100}} transition={{ delay: 0.5}}>
                     {
                         navLinks.map((nav) => (
-                            <li key={nav.id} className={"p-7 uppercase tracking-widest"} >
-                                <a href={`#${nav.title}`} className="hover:text-[#85cb15]">
-                                    {nav.title}
-                                </a>
+                            <li key={nav.id} className={"p-7 uppercase tracking-widest h-[50px] w-[125px] items-center flex justify-center"} >
+                                <NavLink name={nav.title}/>
                             </li>
                         ))
                     }

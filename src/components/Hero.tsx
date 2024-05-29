@@ -2,20 +2,32 @@ import "../styles/Hero.css"
 import { Button } from "./Button"
 import { motion } from "framer-motion"
 import laptop from "../assets/laptop.png"
+import { useScramble } from "use-scramble"
 
 export const Hero = () => {
 
-  const resumeLink = "https://drive.google.com/file/d/1V41Y-tvIE8l2UYeRDZkv-b7aEBk1WeDG/view?usp=sharing";
+  const {ref, replay} = useScramble({
+    text: "Tabish Naqvi",
+    speed: 0.9,
+    tick: 2,
+    step: 1,
+    scramble: 3,
+    seed: 0,
+    overdrive: false 
+  })
+
+  const resumeLink = "https://drive.google.com/file/d/1GFB5FTlHEz-FLqgZaQbD4wAgCCQ723UF/view?usp=sharing";
 
   return (
-    <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.5 }}>
+    <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.1 }}>
       <div className="absolute -top-12 left-0 w-40 h-40 bg-lime-500 bg-opacity-10 rounded-full"></div>
       <div className="absolute top-1/2 right-1/4 w-48 h-48 bg-lime-300 bg-opacity-10 rounded-full"></div>
       <div className="absolute top-1/3 right-1/3 w-60 h-60 bg-gray-200 bg-opacity-5 rounded-full"></div>
 
       <div className="flex lg:flex-row flex-col items-center justify-evenly lg:py-40 p-10 text-center lg:text-start ">
         <div className="flex flex-col gap-8 mb-10">
-          <h1 className="lg:text-7xl text-5xl font-black">Hey, My name is <br /><span className="text-lime-500">Tabish</span> Naqvi.</h1>
+          <h1 className="lg:text-7xl text-5xl font-black" onMouseOver={replay}>Hey, My name is <br />
+          <span className="text-lime-500" ref={ref}>Tabish Naqvi.</span></h1>
           <p className="text-lg">A 20-year-old self-made full stack developer <br />with passion for problem-solving using code.</p>
           <div className="flex gap-5 items-center text-sm lg:text-base ">
             <a href="https://gunhawke.hashnode.dev/" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200" target="_blank">Read the blog</a>

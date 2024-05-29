@@ -1,28 +1,27 @@
 // import Blogs from "./components/Blogs"
-import { useEffect, useState } from "react"
 import { ContactMe } from "./components/ContactMe"
 import { Hero } from "./components/Hero"
 import { Navbar } from "./components/Navbar"
 import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
 import { Timeline } from "./components/Timeline"
-import { Loading } from "./components/Loading"
 import Footer from "./components/Footer"
 import CodingActivity from "./components/CodingActivity"
+import StarPrompt from "./components/StarPrompt"
 
 const App = () => {
 
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  // const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2000)
+  // }, [])
 
   return (
     <>
-      {isLoading ? <Loading /> : (
+      {/* {isLoading ? <Loading /> : ( */}
         <>
           <div className="main">
             <Navbar />
@@ -34,10 +33,11 @@ const App = () => {
             {/* <Blogs/> */}
             <ContactMe />
             <Footer />
+            <StarPrompt/>
           </div>
         </>
-      )
-      }
+      {/* ) */}
+      {/* } */}
     </>
   )
 }

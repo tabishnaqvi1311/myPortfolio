@@ -25,7 +25,7 @@ export const Card = ({ name, desc, techUsed, linkToProject }: CardProps) => {
 
             <div className="text-black flex flex-col p-5 gap-5 h-60 justify-around" >
                 <h1 className="text-xl text-center font-bold border-b-4 w-fit border-[#84cc14]">{name}</h1>
-                <p className="text-gray-500 text-center capitalize">{desc}</p>
+                <p className="text-lime-600 font-semibold text-center capitalize">{desc}</p>
                 <div className="flex items-center justify-between">
                     <a href={linkToProject} className="bg-black hover:bg-gray-700 text-white rounded-xl p-2 w-fit text-xs">
                         <FaGithub size={30} />
