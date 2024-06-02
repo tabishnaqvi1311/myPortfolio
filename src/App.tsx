@@ -8,7 +8,7 @@ import { Timeline } from "./components/Timeline"
 import Footer from "./components/Footer"
 import CodingActivity from "./components/CodingActivity"
 import StarPrompt from "./components/StarPrompt"
-import Cursor from "./components/Cursor"
+// import Cursor from "./components/Cursor"
 
 const App = () => {
 
@@ -35,7 +35,7 @@ const App = () => {
             <ContactMe />
             <Footer />
             <StarPrompt/>
-            <Cursor/>
+            {/* <Cursor/> */}
           </div>
         </>
       {/* ) */}
