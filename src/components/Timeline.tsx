@@ -16,8 +16,9 @@ export const Timeline = () => {
             <p className="ml-2 text-[#83cb15] uppercase tracking-loose">About Me</p>
             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 font-black">My Journey in Tech</p>
             <p className="text-sm md:text-base text-gray-50 mb-4">
-              Hey, I'm a sophomore computer science student and a self-taught full stack developer who's into tech, startups and building projects that really matter. When I'm not coding, I'm either brainstorming my next project, reading or out with friends.
+              Hey, I'm a computer science student and a self-taught full stack developer who's into tech, startups and building projects that really matter. When I'm not coding, I'm either brainstorming my next project, reading or out with friends.
             </p>
+            <p>Doing Currently: <span className="text-accent">Machine Learning</span></p>
           </motion.div>
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">

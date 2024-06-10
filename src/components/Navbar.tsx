@@ -39,7 +39,7 @@ export const Navbar = () => {
     return (
         <div className=''>
             {/* for large devices */}
-            <nav className="flex justify-between items-center p-5">
+            <nav className="flex justify-between items-center md:p-4 p-2">
                 <div className="px-7 text-3xl">
                     <span className="text-lime-500">{"<"}</span>
                     {'t/'}
