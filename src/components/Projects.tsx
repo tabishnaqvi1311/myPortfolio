@@ -13,18 +13,18 @@ export const Projects = () => {
 
   const cardDetails: CardDetails[] = [
     {
+      id: 5,
+      name: "File System Routing",
+      desc: "Inspired by Nextjs, a functional file based router built from scratch",
+      techUsed: ["express", "ts", "node"],
+      linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
+    },
+    {
       id: 2,
       name: "Attendance Notifier",
       desc: "Discord bot to notify college attendance on lazy mornings!",
       techUsed: ["puppeteer", "discordAPI", "node"],
       linkToProject: "https://github.com/tabishnaqvi1311/erp-crawler"
-    },
-    {
-      id: 3,
-      name: "Twitter Bot",
-      desc: "Bot that posts memes on twitter built using Tweepy library",
-      techUsed: ["twitter", "Twiter API", "python"],
-      linkToProject: "https://github.com/tabishnaqvi1311/twitter-bot"
     },
     {
       id: 4,
@@ -39,14 +39,7 @@ export const Projects = () => {
       desc: "Chrome extension that brings back paywalled spotify lyrics",
       techUsed: ["javascript", "chromeAPI"],
       linkToProject: "https://github.com/tabishnaqvi1311/splyrics"
-
-    },
-    {
-      id: 5,
-      name: "3-D Platformer",
-      desc: "A 3D platformer game built using Unity and C#",
-      techUsed: ["unity", "c#", "blender"],
-      linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
+      
     },
     {
       id: 1,
@@ -54,6 +47,13 @@ export const Projects = () => {
       desc: "ClI tool to compress files using Huffman Encoding",
       techUsed: ["clang++", "cpp"],
       linkToProject: "https://github.com/tabishnaqvi1311/piston"
+    },
+    {
+      id: 3,
+      name: "Twitter Bot",
+      desc: "Bot that posts memes on twitter built using Tweepy library",
+      techUsed: ["Twiter API", "python"],
+      linkToProject: "https://github.com/tabishnaqvi1311/twitter-bot"
     },
   ]
 

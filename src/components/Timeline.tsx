@@ -33,11 +33,11 @@ export const Timeline = () => {
                   icon={<FiActivity size={25} color="black" />}
                 />
                 <TimelineCard
-                  content={"In his fresher year, he dived deep into full stack development, contributed to open source, worked on problem solving skills, participated in several hackathons and was part of Microsoft Learn Student Chapter society, TIET"} isEven={true}
+                  content={"In his fresher year, he dived deep into full stack development, contributed to open source, worked on problem solving skills, participated in several hackathons and was part of Microsoft Learn Student Chapter, TIET"} isEven={true}
                   icon={<AiOutlineLaptop size={25} color="black" />}
                 />
                 <TimelineCard
-                  content={"As a sophomore, Tabish refined his skills through freelancing, enhancing his proficiency and exploring DevOps tech and cloud services. Moreover, he was a grand finalist at the Smart India Hackathon 2023 and co-founded his first startup, Moyaai"}
+                  content={"As a sophomore, Tabish refined his skills through freelancing, exploring machine learning and data science. He was also a grand finalist at the Smart India Hackathon 2023 "}
                   isEven={false}
                   icon={<HiCode size={25} color="black" />}
                 />
