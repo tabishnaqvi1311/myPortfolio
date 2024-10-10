@@ -58,7 +58,7 @@ export const Projects = () => {
   ]
 
   return (
-    <div className="p-10" id="projects">
+    <div className="px-10" id="projects">
       <div className="">
         <span className="uppercase text-[#84cc14]">My Works</span>
         <motion.h1 className="text-5xl font-bold" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>Projects I've Made</motion.h1>

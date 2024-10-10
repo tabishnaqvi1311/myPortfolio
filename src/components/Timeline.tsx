@@ -23,9 +23,9 @@ export const Timeline = () => {
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-10 h-full">
-                <div className="border-2-2 border-yellow-555 absolute h-full border"
+                <div className="border-2-2 border-yellow-555 absolute h-full border hidden md:block"
                   style={{ right: "50%", border: "2px solid #83cb15", borderRadius: "1%" }}></div>
-                <div className="border-2-2 border-yellow-555 absolute h-full border"
+                <div className="border-2-2 border-yellow-555 absolute h-full border hidden md:block"
                   style={{ left: "50%", border: "2px solid #83cb15", borderRadius: "1%" }}></div>
                 <TimelineCard
                   content={"At the age of 17, Tabish developed interest in web development and explored various other domains with a curious mind."}

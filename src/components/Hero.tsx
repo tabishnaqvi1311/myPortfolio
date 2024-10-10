@@ -28,8 +28,8 @@ export const Hero = () => {
         <div className="flex flex-col gap-8 mb-10">
           <h1 className="lg:text-7xl text-5xl font-black" onMouseOver={replay}>Hey, My name is <br />
           <span className="text-lime-500" ref={ref}>Tabish Naqvi.</span></h1>
-          <p className="text-lg">A 20-year-old self-made full stack developer <br />with passion for problem-solving using code.</p>
-          <div className="flex gap-5 items-center text-sm lg:text-base ">
+          <p className="text-lg">Pre final year comp sci student who's into tech, startups <br /> and building projects that really matter.<br /></p>
+          <div className="flex gap-5 items-center md:justify-start justify-center text-sm lg:text-base ">
             <a href="https://gunhawke.hashnode.dev/" className="flex items-center gap-2 hover:text-lime-500 transition-all duration-200" target="_blank">Read the blog</a>
             {/*<a href="https://moyaai.tech" className="flex items-center gap-2 text-lime-500 transition-all duration-200" target="_blank">
               Check Out Moyaai
