@@ -7,6 +7,7 @@ import NavLink from "./NavLink";
 type NavLink = {
     id: number,
     title: string
+    link: string
 }
 
 export const Navbar = () => {
@@ -19,19 +20,13 @@ export const Navbar = () => {
     const navLinks: NavLink[] = [
         {
             id: 3,
-            title: 'about'
+            title: 'Github',
+            link: "https://github.com/tabishnaqvi1311"
         },
         {
             id: 1,
-            title: "skills"
-        },
-        {
-            id: 2,
-            title: 'projects',
-        },
-        {
-            id: 4,
-            title: 'contact',
+            title: "Contact",
+            link: "mailto:tabish.naqvi2003@gmail.com"
         },
     ];
 
@@ -49,7 +44,7 @@ export const Navbar = () => {
                     {
                         navLinks.map((nav) => (
                             <li key={nav.id} className={"p-7 uppercase tracking-widest h-[50px] w-[125px] items-center flex justify-center"} >
-                                <NavLink name={nav.title}/>
+                                <NavLink name={nav.title} link={nav.link}/>
                             </li>
                         ))
                     }
@@ -63,8 +58,8 @@ export const Navbar = () => {
                         <ul className='flex gap-7 flex-col p-4'>
                             {
                                 navLinks.map((nav) => (
-                                    <li key={nav.id} className={``}>
-                                        <a href={`#${nav.title}`} className="uppercase tracking-widest">
+                                    <li key={nav.id}>
+                                        <a href={nav.link} className="uppercase tracking-widest">
                                             {nav.title}
                                         </a>
                                     </li>

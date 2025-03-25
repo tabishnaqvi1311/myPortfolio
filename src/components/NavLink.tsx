@@ -2,9 +2,10 @@ import { useScramble } from 'use-scramble'
 
 type NavLinkProps = {
     name: string,
+    link: string
 }
 
-const NavLink = ({ name }: NavLinkProps) => {
+const NavLink = ({ name, link }: NavLinkProps) => {
 
     const { ref, replay } = useScramble({
         text: name,
@@ -18,11 +19,11 @@ const NavLink = ({ name }: NavLinkProps) => {
     })
 
     return (
-        <div>
-            <a href={`#${name}`} className="hover:text-accent" ref={ref} onMouseOver={replay}>
+        <>
+            <a href={link} className="hover:text-accent" ref={ref} onMouseOver={replay}>
                 {name}
             </a>
-        </div>
+        </>
     )
 }
 
