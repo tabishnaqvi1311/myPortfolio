@@ -6,6 +6,7 @@ import { Projects } from "./components/Projects"
 import Footer from "./components/Footer"
 import CodingActivity from "./components/CodingActivity"
 import StarPrompt from "./components/StarPrompt"
+import { Skills } from "./components/Skills"
 
 const App = () => {
 
@@ -27,7 +28,7 @@ const App = () => {
             {/* <Timeline /> */}
             <CodingActivity />
             <Projects />
-            {/* <Skills /> */}
+            <Skills />
             {/* <Blogs/> */}
             <ContactMe />
             <Footer />

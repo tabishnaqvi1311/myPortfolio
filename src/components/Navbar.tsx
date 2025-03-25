@@ -24,10 +24,16 @@ export const Navbar = () => {
             link: "https://github.com/tabishnaqvi1311"
         },
         {
+            id: 2,
+            title: "Blog",
+            link: "https://gunhawke.hashnode.dev/"
+        },
+        {
             id: 1,
             title: "Contact",
             link: "mailto:tabish.naqvi2003@gmail.com"
         },
+
     ];
 
 

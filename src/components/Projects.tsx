@@ -13,33 +13,32 @@ export const Projects = () => {
 
   const cardDetails: CardDetails[] = [
     {
+      id: 2,
+      name: "Job board for youtubers",
+      desc: "My first startup! A complete end to end PaaS for youtubers to find talent",
+      techUsed: ["nextjs", "postgresql"],
+      linkToProject: "https://usecrimson.me"
+    },
+    {
+      id: 4,
+      name: "ManimBot",
+      desc: "Render manim code to help you visualize and make learning math more fun",
+      techUsed: ["geminiAPI", "go"],
+      linkToProject: "https://github.com/tabishnaqvi1311/manimbot-backend"
+    },
+    {
       id: 5,
       name: "File System Routing",
       desc: "Inspired by Nextjs, a functional file based router built from scratch",
       techUsed: ["express", "ts", "node"],
-      linkToProject: "https://github.com/tabishnaqvi1311/3dGame"
-    },
-    {
-      id: 2,
-      name: "Attendance Notifier",
-      desc: "Discord bot to notify college attendance on lazy mornings!",
-      techUsed: ["puppeteer", "discordAPI", "node"],
-      linkToProject: "https://github.com/tabishnaqvi1311/erp-crawler"
-    },
-    {
-      id: 4,
-      name: "EZ:Ticket",
-      desc: "dApp for college event ticket distribution through NFTs",
-      techUsed: ["solidity", "etherjs", "metamask"],
-      linkToProject: "https://github.com/tabishnaqvi1311/ezticket-website"
+      linkToProject: "https://github.com/tabishnaqvi1311/file-system-router"
     },
     {
       id: 6,
-      name: "Splyrics",
-      desc: "Chrome extension that brings back paywalled spotify lyrics",
-      techUsed: ["javascript", "chromeAPI"],
-      linkToProject: "https://github.com/tabishnaqvi1311/splyrics"
-      
+      name: "Multi Step Form",
+      desc: "An extremely optimised, concurrent multi step form that logs data to googel sheets",
+      techUsed: ["go", "nextjs", "googleAPI"],
+      linkToProject: "https://github.com/tabishnaqvi1311/innoskill-backend"
     },
     {
       id: 1,
@@ -50,10 +49,10 @@ export const Projects = () => {
     },
     {
       id: 3,
-      name: "Twitter Bot",
-      desc: "Bot that posts memes on twitter built using Tweepy library",
-      techUsed: ["Twiter API", "python"],
-      linkToProject: "https://github.com/tabishnaqvi1311/twitter-bot"
+      name: "sh-auto",
+      desc: "cli to generate shell scripts on the fly with status and timing logs",
+      techUsed: ["shell script", "go"],
+      linkToProject: "https://github.com/tabishnaqvi1311/sh-auto"
     },
   ]
 
