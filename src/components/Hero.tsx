@@ -15,16 +15,16 @@ export const Hero = () => {
     overdrive: false 
   })
 
-  const resumeLink = "https://drive.google.com/file/d/1Q_3v9dgA7D7ex1ty62Xg91HYQM0bf0vF/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/18OA8cEbdEEdlo_TkQ8xw1s-gm9hQh3YY/view?usp=sharing";
 
   return (
     <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.1 }}>
 
       <div className="flex lg:flex-row flex-col items-center justify-evenly lg:py-40 p-10 text-center lg:text-start ">
         <div className="flex flex-col items-center gap-8 mb-10">
-          <h1 className="lg:text-7xl text-5xl font-black text-center" onMouseOver={replay}>Hey, My name is <br />
+          <h1 className="lg:text-7xl text-5xl text-center poppins-medium" onMouseOver={replay}>Hey, My name is <br />
           <span className="text-lime-500" ref={ref}>Tabish Naqvi.</span></h1>
-          <p className="text-lg text-center">I'm a full stack developer who's into tech and startups. <br /> I love building things and am always open to learn</p>
+          <p className="text-lg text-center space-grotesk-400 text-gray-300">I'm a full stack developer who's into tech and startups. <br /> I love building things and am always open to learn</p>
           <a href={resumeLink} target="_blank">
             <Button content="R E S U M E" />
           </a>

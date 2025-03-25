@@ -2,43 +2,58 @@
 <html lang="en">
 
 <head>
-  <script defer src="https://analytics.us.umami.is/script.js" data-website-id="54073161-3338-4850-9347-d9186dfa450e"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <meta name="description" content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
-  
+  <script defer src="https://analytics.us.umami.is/script.js"
+    data-website-id="54073161-3338-4850-9347-d9186dfa450e"></script>
+  <meta name="description"
+    content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
+
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="./public/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tabish Naqvi | Web Developer</title>
-  
+
   <!-- SEO -->
   <meta name="author" content="Tabish Naqvi">
   <meta name="keywords" content="Tabish Naqvi, Web Developer, Frontend Developer, Backend Developer, Portfolio">
   <meta property="og:title" content="Tabish Naqvi | Web Developer">
-  <meta property="og:description" content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
+  <meta property="og:description"
+    content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tabishnaqvi.com">
   <meta property="og:image" content="https://example.com/image.jpg">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://tabishnaqvi.com">
   <meta property="twitter:title" content="Tabish Naqvi | Web Developer">
-  <meta property="twitter:description" content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
+  <meta property="twitter:description"
+    content="Explore Tabish Naqvi's web development portfolio showcasing skills and projects. Experienced in front-end and back-end technologies.">
   <meta property="twitter:image" content="https://example.com/image.jpg">
 </head>
 
 <body>
   <div id="root"></div>
-  <!-- <script>
+  <script>
     const sendNotif = async () => {
-      await fetch('https://ntfy.sh/portf', {
+      const visitTime = new Date().toLocaleString();
+      const userAgent = navigator.userAgent;
+      const screenSize = `${window.screen.width}x${window.screen.height}`;
+      const platform = navigator.platform;
+
+      const message = `
+  🔔 Visitor Alert  
+  📅 Time: ${visitTime}  
+  🖥 Platform: ${platform}  
+  📏 Screen Size: ${screenSize}  
+  🌐 User-Agent: ${userAgent}
+      `.trim(); 
+
+      await fetch('https://ntfy.sh/tabishnaqvidotcom', {
         method: 'POST',
-        body: 'Someone visited your site'
-      })
-    }
-    sendNotif()
-  </script> -->
+        body: message
+      });
+    };
+
+    sendNotif();
+  </script>
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",

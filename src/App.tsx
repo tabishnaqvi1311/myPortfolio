@@ -25,15 +25,12 @@ const App = () => {
           <div className="main">
             <Navbar />
             <Hero />
-            {/* <Timeline /> */}
             <CodingActivity />
             <Projects />
             <Skills />
-            {/* <Blogs/> */}
             <ContactMe />
             <Footer />
             <StarPrompt/>
-            {/* <Cursor/> */}
           </div>
         </>
       {/* ) */}

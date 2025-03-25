@@ -38,7 +38,7 @@ export const Navbar = () => {
 
 
     return (
-        <div className=''>
+        <div className='bricolage-grotesque-300'>
             {/* for large devices */}
             <nav className="flex justify-between items-center md:p-4 p-2">
                 <div className="px-7 text-3xl">
@@ -58,7 +58,7 @@ export const Navbar = () => {
                 {/* for mobile */}
                 <div className="sm:hidden flex m-10">
                     <span className='' onClick={() => setToggle((prev) => !prev)}>
-                        {toggle ? <CgClose size={50} /> : <GiHamburgerMenu size={50} />}
+                        {toggle ? <CgClose size={30} /> : <GiHamburgerMenu size={30} />}
                     </span>
                     <div className={`${toggle ? 'flex' : 'hidden'} absolute top-28 right-7 bg-white p-2 text-black z-10 rounded-xl`}>
                         <ul className='flex gap-7 flex-col p-4'>

@@ -21,8 +21,8 @@ export const Projects = () => {
     },
     {
       id: 4,
-      name: "ManimBot",
-      desc: "Render manim code to help you visualize and make learning math more fun",
+      name: "Math Concept Visualiser",
+      desc: "Tool to render manim code to help you visualize and make learning math fun",
       techUsed: ["geminiAPI", "go"],
       linkToProject: "https://github.com/tabishnaqvi1311/manimbot-backend"
     },
@@ -36,7 +36,7 @@ export const Projects = () => {
     {
       id: 6,
       name: "Multi Step Form",
-      desc: "An extremely optimised, concurrent multi step form that logs data to googel sheets",
+      desc: "An extremely optimised, concurrent multi step form that logs data to google sheets",
       techUsed: ["go", "nextjs", "googleAPI"],
       linkToProject: "https://github.com/tabishnaqvi1311/innoskill-backend"
     },
@@ -59,11 +59,11 @@ export const Projects = () => {
   return (
     <div className="px-10" id="projects">
       <div className="">
-        <span className="uppercase text-[#84cc14]">My Works</span>
-        <motion.h1 className="text-5xl font-bold" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>Projects I've Made</motion.h1>
+        <span className="text-[#84cc14] poppins-regular">My Works</span>
+        <motion.h1 className="text-5xl bricolage-grotesque-600" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.1 }}>Projects I've Made</motion.h1>
       </div>
       <div className="flex justify-center items-center lg:p-20 p-5">
-        <motion.div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-40 gap-10" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.7 }}>
+        <motion.div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-30 gap-10" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.7 }}>
           {cardDetails.map((card) => (
             <Card name={card.name} desc={card.desc} techUsed={card.techUsed} linkToProject={card.linkToProject} key={card.id} />
           ))}
