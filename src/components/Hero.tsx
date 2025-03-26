@@ -15,7 +15,7 @@ export const Hero = () => {
     overdrive: false 
   })
 
-  const resumeLink = "https://drive.google.com/file/d/18OA8cEbdEEdlo_TkQ8xw1s-gm9hQh3YY/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1TSlMs-SKHv1cTkZMD_OpmQPrXLm3GuMW/view?usp=sharing";
 
   return (
     <motion.section className=" h-screen `" id="home" initial={{ opacity: '0' }} animate={{ opacity: 100 }} transition={{ delay: 0.1 }}>
