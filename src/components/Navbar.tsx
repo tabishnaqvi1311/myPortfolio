@@ -22,7 +22,7 @@ export const Navbar = () => {
         {
             id: 2,
             title: "Blog",
-            link: "https://gunhawke.hashnode.dev/",
+            link: "https://tabish.bearblog.dev/",
         },
         {
             id: 1,
